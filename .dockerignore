@@ -1,0 +1,7 @@
+node_modules
+playwright-report
+test-results
+videos
+.git
+.DS_Store
+npm-debug.log

@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:flow": "npx playwright test --grep @p1 --workers=1 --reporter=dot && npx playwright test --grep @p2 --workers=1 --reporter=dot && npx playwright test --grep @p3 --workers=1 --reporter=dot && npx playwright test --grep @p4 --workers=1 --reporter=dot",
+  "test": "npx playwright test"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "allure-playwright": "^3.3.3"
+  },
+  "dependencies": {
+    "googleapis": "^156.0.0"
+  }
+}

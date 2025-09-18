@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14625","01. Create USer @p1","admin","Thu Sep 11 12:50:15 IST 2025","passed","Thu Sep 11 12:50:30 IST 2025","","admin.spec.js","",""
+"","7252","02. get Username and password @p2","admin","Thu Sep 11 12:50:30 IST 2025","passed","Thu Sep 11 12:50:37 IST 2025","","admin.spec.js","",""
+"","18407","03. Employee transactions @p3","employee","Thu Sep 11 12:50:44 IST 2025","passed","Thu Sep 11 12:51:02 IST 2025","","employee.spec.js","",""
+"","5117","04. approve the request @p4","admin","Thu Sep 11 12:50:38 IST 2025","passed","Thu Sep 11 12:50:43 IST 2025","","admin.spec.js","",""

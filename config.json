@@ -1,0 +1,15 @@
+{
+    "Employee":
+    {
+        "baseUrl":"https://timesheet-frontend-app.onrender.com/#/",
+        "userName": "ST_TU_004",
+        "passWord": "1f7e6fc2"
+    },
+
+    "Admin":
+    {
+        "baseUrl":"https://timesheet-frontend-app.onrender.com/#/",
+        "userName":"ADM_001",
+        "passWord":"123"
+    }
+}

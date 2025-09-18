@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://timesheet-frontend-app.onrender.com",
+      "localStorage": [
+        {
+          "name": "theme",
+          "value": "light"
+        },
+        {
+          "name": "loginTime",
+          "value": "2025-09-14T09:32:46.573Z"
+        },
+        {
+          "name": "role",
+          "value": "employer"
+        },
+        {
+          "name": "employeeId",
+          "value": "ADM_001"
+        }
+      ]
+    }
+  ]
+}

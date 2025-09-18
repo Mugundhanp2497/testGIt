@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img "Logo" [ref=e8]
+    - list [ref=e11]:
+      - link "Dashboard" [ref=e12] [cursor=pointer]:
+        - /url: "#/employer/dashboard"
+        - img [ref=e13] [cursor=pointer]
+        - generic [ref=e15] [cursor=pointer]: Dashboard
+      - link "Project" [ref=e16] [cursor=pointer]:
+        - /url: "#/employer/projects"
+        - img [ref=e17] [cursor=pointer]
+        - generic [ref=e19] [cursor=pointer]: Project
+      - link "Clients" [ref=e20] [cursor=pointer]:
+        - /url: "#/employer/clients"
+        - img [ref=e21] [cursor=pointer]
+        - generic [ref=e23] [cursor=pointer]: Clients
+      - link "Our Leaves" [ref=e24] [cursor=pointer]:
+        - /url: "#/employer/leave"
+        - img [ref=e25] [cursor=pointer]
+        - generic [ref=e27] [cursor=pointer]: Our Leaves
+      - link "Time-Sheet" [active] [ref=e28] [cursor=pointer]:
+        - /url: "#/employer/timesheet"
+        - img [ref=e29] [cursor=pointer]
+        - generic [ref=e32] [cursor=pointer]: Time-Sheet
+      - link "Expense" [ref=e33] [cursor=pointer]:
+        - /url: "#/employer/expence"
+        - img [ref=e34] [cursor=pointer]
+        - generic [ref=e36] [cursor=pointer]: Expense
+      - link "User" [ref=e37] [cursor=pointer]:
+        - /url: "#/employer/adduser"
+        - img [ref=e38] [cursor=pointer]
+        - generic [ref=e40] [cursor=pointer]: User
+      - link "Reports" [ref=e41] [cursor=pointer]:
+        - /url: "#/employer/reports"
+        - img [ref=e42] [cursor=pointer]
+        - generic [ref=e44] [cursor=pointer]: Reports
+      - link "Team" [ref=e45] [cursor=pointer]:
+        - /url: "#/employer/teams"
+        - img [ref=e46] [cursor=pointer]
+        - generic [ref=e48] [cursor=pointer]: Team
+      - link "Settings" [ref=e49] [cursor=pointer]:
+        - /url: "#/employer/settingProfile"
+        - img [ref=e50] [cursor=pointer]
+        - generic [ref=e52] [cursor=pointer]: Settings
+  - generic [ref=e53]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - searchbox "Search Here..." [ref=e58]
+        - img [ref=e60]
+      - generic [ref=e63]:
+        - img [ref=e67] [cursor=pointer]
+        - heading "ADMIN" [level=4] [ref=e71] [cursor=pointer]
+        - img "admin" [ref=e73] [cursor=pointer]
+    - generic [ref=e76]:
+      - banner [ref=e77]:
+        - heading "Employee Timesheet System" [level=1] [ref=e78]
+        - generic [ref=e79] [cursor=pointer]:
+          - button "Export as PDF" [ref=e80]
+          - button "Export as Excel" [ref=e81]
+      - 'heading "Date: 9 September 2025, Day: Tuesday" [level=2] [ref=e83]'
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]: "From Date:"
+          - textbox [ref=e87]
+        - generic [ref=e88]:
+          - generic [ref=e89]: "To Date:"
+          - textbox [ref=e90]
+        - generic [ref=e91]:
+          - generic [ref=e92]: "Employee:"
+          - combobox [ref=e93]:
+            - option "All employees" [selected]
+            - option "Rathinam"
+            - option
+        - generic [ref=e94]:
+          - generic [ref=e95]: "Project:"
+          - combobox [ref=e96]:
+            - option "All Projects" [selected]
+            - option
+      - generic [ref=e97]:
+        - generic [ref=e98]: "Status:"
+        - combobox [ref=e99]:
+          - option "All"
+          - option "Approved"
+          - option "Rejected"
+          - option "Reverted"
+          - option "Pending" [selected]
+      - button "Approve All" [ref=e101] [cursor=pointer]
+      - table [ref=e103]:
+        - rowgroup [ref=e104]:
+          - row "S/No Approve Revert Reject Date Employee ID Employee Project Task Duration Remarks Status" [ref=e105]:
+            - cell "S/No" [ref=e106]
+            - cell "Approve" [ref=e107]
+            - cell "Revert" [ref=e108]
+            - cell "Reject" [ref=e109]
+            - cell "Date" [ref=e110]
+            - cell "Employee ID" [ref=e111]
+            - cell "Employee" [ref=e112]
+            - cell "Project" [ref=e113]
+            - cell "Task" [ref=e114]
+            - cell "Duration" [ref=e115]
+            - cell "Remarks" [ref=e116]
+            - cell "Status" [ref=e117]
+        - rowgroup [ref=e118]:
+          - row "No Records Found" [ref=e119]:
+            - cell "No Records Found" [ref=e120]
+      - generic [ref=e121]:
+        - button "<" [disabled] [ref=e122]
+        - button ">" [disabled] [ref=e123]
+      - button "Submit" [ref=e125] [cursor=pointer]
+      - region "Notifications Alt+T"
+```

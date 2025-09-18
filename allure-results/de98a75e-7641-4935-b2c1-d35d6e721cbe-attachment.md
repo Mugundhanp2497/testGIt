@@ -1,0 +1,110 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - img [ref=e7] [cursor=pointer]
+    - generic [ref=e9]:
+      - img "office logo" [ref=e11]
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Dashboard" [ref=e15] [cursor=pointer]:
+            - /url: "#/employee/dashboard"
+            - img [ref=e16] [cursor=pointer]
+            - generic [ref=e18] [cursor=pointer]: Dashboard
+        - listitem [ref=e19]:
+          - link "Project" [ref=e20] [cursor=pointer]:
+            - /url: "#/employee/project"
+            - img [ref=e21] [cursor=pointer]
+            - generic [ref=e23] [cursor=pointer]: Project
+        - listitem [ref=e24]:
+          - link "Timesheet" [ref=e25] [cursor=pointer]:
+            - /url: "#/employee/timesheet"
+            - img [ref=e26] [cursor=pointer]
+            - generic [ref=e30] [cursor=pointer]: Timesheet
+        - listitem [ref=e31]:
+          - link "Leave" [ref=e32] [cursor=pointer]:
+            - /url: "#/employee/leave"
+            - img [ref=e33] [cursor=pointer]
+            - generic [ref=e35] [cursor=pointer]: Leave
+        - listitem [ref=e36]:
+          - link "Team" [ref=e37] [cursor=pointer]:
+            - /url: "#/employee/team"
+            - img [ref=e38] [cursor=pointer]
+            - generic [ref=e40] [cursor=pointer]: Team
+        - listitem [ref=e41]:
+          - link "Settings" [ref=e42] [cursor=pointer]:
+            - /url: "#/employee/Mainsettings"
+            - img [ref=e43] [cursor=pointer]
+            - generic [ref=e45] [cursor=pointer]: Settings
+        - listitem [ref=e46]:
+          - link "Logout" [ref=e47] [cursor=pointer]:
+            - /url: "#/"
+            - img [ref=e48] [cursor=pointer]
+            - generic [ref=e50] [cursor=pointer]: Logout
+  - generic [ref=e51]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - searchbox "Search Here..." [ref=e56]
+        - img [ref=e58]
+      - generic [ref=e61]:
+        - img [ref=e63] [cursor=pointer]
+        - generic [ref=e65] [cursor=pointer]:
+          - heading "Test user" [level=4] [ref=e66] [cursor=pointer]
+          - link "admin" [ref=e67] [cursor=pointer]:
+            - /url: "#/employee/Profile/ST_TU_004"
+            - img "admin" [ref=e68] [cursor=pointer]
+    - generic [ref=e69]:
+      - generic [ref=e71]:
+        - banner [ref=e72]:
+          - heading "Timesheet Management" [level=1] [ref=e73]
+        - 'heading "Date: 9 September 2025, Day: Tuesday" [level=2] [ref=e75]'
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: "From Date:"
+            - generic [ref=e79]:
+              - textbox "dd-mm-yyyy" [ref=e80] [cursor=pointer]
+              - img [ref=e81] [cursor=pointer]
+              - textbox
+          - generic [ref=e83]:
+            - generic [ref=e84]: "To Date:"
+            - generic [ref=e85]:
+              - textbox "dd-mm-yyyy" [ref=e86] [cursor=pointer]
+              - img [ref=e87] [cursor=pointer]
+              - textbox
+          - generic [ref=e89]:
+            - generic [ref=e90]: "Project Name:"
+            - combobox [ref=e91]:
+              - option "-----ALL-----" [selected]
+          - generic [ref=e92]:
+            - generic [ref=e93]: "Timesheet Status:"
+            - combobox [ref=e94]:
+              - option "-----ALL-----" [selected]
+              - option "Approved"
+              - option "Reverted"
+              - option "Rejected"
+          - button "Search" [ref=e96] [cursor=pointer]
+      - generic [ref=e97]:
+        - button "+ Add Entry" [ref=e98] [cursor=pointer]
+        - table [ref=e99]:
+          - rowgroup [ref=e100]:
+            - row "S/No Approve Revert Reject Date Project Task Duration Remarks Status Action" [ref=e101]:
+              - cell "S/No" [ref=e102]
+              - cell "Approve" [ref=e103]
+              - cell "Revert" [ref=e104]
+              - cell "Reject" [ref=e105]
+              - cell "Date" [ref=e106]
+              - cell "Project" [ref=e107]
+              - cell "Task" [ref=e108]
+              - cell "Duration" [ref=e109]
+              - cell "Remarks" [ref=e110]
+              - cell "Status" [ref=e111]
+              - cell "Action" [ref=e112]
+          - rowgroup [ref=e113]:
+            - row "No timesheet entries found." [ref=e114]:
+              - cell "No timesheet entries found." [ref=e115]
+        - generic [ref=e116]:
+          - button "Export PDF" [ref=e117] [cursor=pointer]
+          - button "Export Excel" [ref=e118] [cursor=pointer]
+        - region "Notifications Alt+T"
+```
