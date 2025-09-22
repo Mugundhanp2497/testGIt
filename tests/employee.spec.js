@@ -28,3 +28,7 @@ await LoginPage.logout();
 
 
 });
+test('sample',async({page})=>
+{
+    console.log('sam');
+});
